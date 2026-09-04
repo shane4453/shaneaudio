@@ -96,4 +96,12 @@ footer a{color:var(--dim);display:block;margin:4px 0} footer a:hover{color:var(-
 .pdesc pre{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:14px 16px;white-space:pre-wrap;font:13px/1.6 ui-monospace,Menlo,monospace;color:var(--dim);margin:0 0 12px}
 .pdesc ul{margin:0 0 12px 20px}
 .more{padding-top:44px}
+.updates{list-style:none;margin:8px 0 0;padding:0}
+.updates>li{display:grid;grid-template-columns:120px 1fr;gap:20px;padding:20px 0;border-top:1px solid var(--line)}
+.updates .ud{color:var(--dim);font-size:13px;padding-top:4px}
+.updates h3{font-size:18px;margin-bottom:6px}
+.updates h3 a{color:var(--txt)}
+.updates ul{margin:0 0 0 18px;color:var(--dim);font-size:14px}
+.updates ul li{margin:3px 0}
+@media(max-width:860px){.updates>li{grid-template-columns:1fr}}
 @media(max-width:860px){.hero{grid-template-columns:1fr;padding-top:44px}.hero h1{font-size:40px}.ghostbox{order:-1}.ghostbox img{width:180px}.proof{grid-template-columns:1fr}.ghost{grid-template-columns:1fr}.phead{grid-template-columns:1fr}footer .cols{grid-template-columns:1fr}nav .links{display:none}}
