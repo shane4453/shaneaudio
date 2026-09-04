@@ -89,6 +89,8 @@ footer a{color:var(--dim);display:block;margin:4px 0} footer a:hover{color:var(-
 .meta{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin-top:22px;font-size:13.5px;color:var(--dim)}
 .meta b{color:var(--txt);display:block;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em}
 .vid{margin:34px 0 0;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#000}
+.shot{margin:34px 0 0;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#000;display:flex;justify-content:center}
+.shot img{display:block;max-width:100%;max-height:640px;height:auto}
 .vid video{width:100%;display:block;max-height:560px}
 .pdesc{max-width:780px;padding:30px 0 8px}
 .pdesc h3{font-size:17px;margin:22px 0 8px;color:var(--acc2)}
