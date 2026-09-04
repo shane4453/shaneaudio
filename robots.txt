@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shane4453.github.io/shaneaudio/sitemap.xml
