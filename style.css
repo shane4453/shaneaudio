@@ -38,8 +38,10 @@ nav .links .cta{color:var(--txt);border:1px solid var(--line);border-radius:999p
 .cap{display:flex;justify-content:space-between;color:var(--dim);font-size:13px;padding:10px 4px 0}
 /* proof strip */
 .proof{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:56px 0 0}
-.proof div{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:20px 22px}
-.proof b{display:block;font-family:Syne;font-size:26px;color:var(--acc2);margin-bottom:6px}
+.proof a{display:block;color:var(--txt);background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:18px 22px 20px;transition:border-color .15s}
+.proof a:hover{border-color:var(--acc)}
+.proof small{display:block;color:var(--acc);font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;margin-bottom:8px}
+.proof b{display:block;font-family:Syne;font-size:22px;color:var(--acc2);margin-bottom:6px;line-height:1.15}
 .proof span{color:var(--dim);font-size:13.5px}
 /* sections */
 section{padding-top:64px}
