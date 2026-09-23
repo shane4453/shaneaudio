@@ -85,6 +85,8 @@ footer a{color:var(--dim);display:block;margin:4px 0} footer a:hover{color:var(-
 .buyrow{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .buy{display:inline-block;background:var(--acc);color:#fff;font-weight:700;padding:13px 28px;border-radius:10px;font-size:16px}
 .buy.free{background:#2e8b57}
+.buy.cn{background:transparent;border:1px solid var(--line);color:var(--dim);font-weight:600;padding:12px 20px;font-size:14px}
+.buy.cn:hover{color:var(--txt);border-color:var(--acc2)}
 .bigprice{font-family:Syne;font-size:28px;color:var(--acc2)}
 .meta{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin-top:22px;font-size:13.5px;color:var(--dim)}
 .meta b{color:var(--txt);display:block;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em}
