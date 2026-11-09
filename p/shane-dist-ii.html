@@ -31,10 +31,10 @@
 · ANALOG          circuit character
 · MIX             parallel blend
 · OVERSAMPLE 4x   keeps the added harmonics from folding back
-· OUTPUT</pre><p>WHAT'S NEW IN 1.6</p><p>· Rebuilt, re-signed and notarized for macOS (Universal) and Windows</p><p>REGISTRATION</p><p>· The plug-in runs unrestricted for a 7-day trial from first launch, counted separately for each plugin.</p><p>· Your licence key is on your Gumroad receipt and on the download page.</p><p>· Paste it into the plug-in once — it needs internet that one time, then works offline.</p><p>· Message me on Gumroad if you need it reset for a new machine.</p><pre>FORMATS</pre><p>macOS    AU + VST3 + AAX (Pro Tools), Universal (Intel + Apple Silicon) Windows  VST3 + AAX (Pro Tools), 64-bit</p><pre>INSTALL — WINDOWS
+· OUTPUT</pre><p>WHAT'S NEW IN 1.6.2</p><p>· With oversampling off, the DC blocker, bias recovery and parameter smoothing were set up at four times the rate, so their time constants were four times off — the tube DC constant was 13 ms at 4x and 52 ms with oversampling off. They now follow the actual processing rate.</p><p>· Factory presets are now deterministic. They were partial, so a preset kept values from whichever preset you loaded before it.</p><p>· The Default program in the host's preset menu now actually restores the plug-in's defaults.</p><p>· Fixed a crash that could bring the host down: closing the plug-in window and then removing the plug-in left a timer running on freed data.</p><p>· Licence activation fixed: a bundle key now counts one activation per computer instead of one per plug-in, so one key covers five machines as stated.</p><p>· Rebuilt, re-signed and notarized for macOS (Universal) and Windows.</p><p>REGISTRATION</p><p>· The plug-in runs unrestricted for a 7-day trial from first launch, counted separately for each plugin.</p><p>· Your licence key is on your Gumroad receipt and on the download page.</p><p>· Paste it into the plug-in once — it needs internet that one time, then works offline.</p><p>· Message me on Gumroad if you need it reset for a new machine.</p><pre>FORMATS</pre><p>macOS    AU + VST3 + AAX (Pro Tools), Universal (Intel + Apple Silicon) Windows  VST3 + AAX (Pro Tools), 64-bit</p><pre>INSTALL — WINDOWS
 1. Unzip.
-2. Copy "Shane Dist II.vst3" to:
-   C:\Program Files\Common Files\VST3
+2. Right-click "Install.bat" and choose "Run as administrator".
+   It puts both the VST3 and the AAX version in place.
 3. Restart your DAW and rescan plugins.
 INSTALL — macOS
 1. Open the .pkg installer and follow the prompts.
